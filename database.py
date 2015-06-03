@@ -15,8 +15,8 @@ class appt_db:
 	def __init__(self):
 		self.host = 'mysql.eecs.oregonstate.edu'
 		self.user = 'cs419-g4'
-		self.password = 'JH59tyapzvJx5EL3'
-		self.database = 'cs419-g4'
+		self.password = ''
+		self.database = ''
 
 	#connect to the database
 	def connect(self):
